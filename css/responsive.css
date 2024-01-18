@@ -72,6 +72,7 @@
     }
 
     .about button {
+        color:#000;
         background-color: #08D761;
         padding: 12px 20px;
         width: auto;
