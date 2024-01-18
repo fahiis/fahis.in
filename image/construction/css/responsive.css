@@ -1,0 +1,54 @@
+@media only screen and (max-width: 600px) {
+    .col-33{
+        width: 100%;
+    }
+
+    .col-50{
+        width: 100%;
+    }
+    
+    .col-25{
+        width: 100%;
+    }
+    .col-50 img{
+        padding-top: 50px;
+    }
+    
+    .d-flex{
+        display: inline-block;
+    }
+
+    .col-50 img{
+        width: 100%;
+        height: auto;
+    }
+
+    /* top-header */
+
+    .top-header .col-50 {
+        width: 50%;
+    }
+
+    .top-header ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+    }
+    /* BANNER */
+    .banner .title{
+        width: 100%;
+    }
+
+    .banner .content{
+        width: 100%;
+    }
+
+    .banner .cnt .content h1 {
+        font-size: 47px;
+    }
+    /* footer2 */
+    .footer-2 .col-50{
+        width: 50%;
+    }
+}
+    

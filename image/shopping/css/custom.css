@@ -1,0 +1,342 @@
+body {
+    font-family: 'Inknut Antiqua', serif;
+}
+
+/* top-header */
+     .top-header {
+        background-color:white;
+     }
+
+     .top-header ul {
+        padding: 15px 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content:end
+     }
+
+     .top-header ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 10px;
+     }
+
+     .top-header a {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        font-size: 14px;
+       
+     }
+
+     .top-header .icon a {
+        margin: 0 1px;
+     }  
+
+     /* banner */
+         .banner {
+            /* height: 768px; */
+            position: relative;
+            background: linear-gradient(1deg, #D9D9D9 -73.67%, rgba(234, 212, 255, 0.98) -73.67%, rgba(217, 217, 217, 0.00) 80.43%);
+         }
+         
+         .banner .cnt {
+            display: flex;
+            align-items: center;
+            height: 100%;
+         }
+
+         .banner h1 {
+            font-family:'Inknut Antiqua', serif ;
+            font-size: 48px;
+            margin: 0;
+         }
+
+         .banner h2 {
+            font-family:'Inknut Antiqua', serif ;
+            font-size: 96px;
+            margin: 0; 
+         }
+
+         .banner .cnt p {
+            font-size: 14px;
+            font-weight: 500;
+         }
+
+         .banner .cnt button {
+            background-color: black;
+            color: white;
+            margin-top: 20px;
+            width: 160px;
+            height: 49px;
+            font-size: 18px;
+            font-weight: 500;
+            border-radius: 5px;
+         }
+
+         .banner .line {
+            position: relative;
+            left: 47px;
+            top: -19px;
+        }
+
+        /* LATEST */
+            .latest h3 {
+               font-family:'Inknut Antiqua', serif ;
+               font-size: 30px;
+               font-weight: 500;  
+            }
+
+            .latest .card-1 {
+               background-color: #F8F8F8;
+               width: 260px;
+               height: 290px;  
+               margin: 0 auto  ;
+               position: relative;
+            }
+
+            .latest .card-1 img {
+               width: 100%;
+            }
+
+            .latest .card-1 .icon {
+               color: black;
+               position:absolute;
+               top: 9px;
+               right: 14px;
+            }
+
+            /* COLLECTION */
+
+            .collection {
+               display: flex;
+               align-items: center;
+               background: linear-gradient(1deg, #D9D9D9 -73.67%, rgba(234, 212, 255, 0.98) -73.67%, rgba(217, 217, 217, 0.00) 80.43%);
+            }
+                .collection h4 {
+                  font-size: 30px;
+                  font-weight: 500;
+                  font-family: 'Inknut Antiqua', serif;
+                }
+
+                .collection p {
+                  font-size: 14px;
+                  color: black;
+                }
+
+                .collection button {
+                  background-color: black;
+                   color: white;
+                    margin-top: 20px;
+                    width: 160px;
+                    height: 49px;
+                    font-size: 18px;
+                    font-weight: 500;
+                    border-radius: 5px
+                }
+
+                .collection img {
+                  margin-top: -50px;
+                }
+
+                /* HILLS */
+                   .hills h3 {
+                     font-size: 30px;
+                     font-weight: 500;
+                     font-family: 'Inknut Antiqua', serif;
+                   }
+
+                   .hills p {
+                     font-size: 14px;
+                     color: black;
+                   }
+
+                   .hills button {
+                     background-color: black;
+                     color: white;
+                      margin-top: 20px;
+                      width: 160px;
+                      height: 49px;
+                      font-size: 18px;
+                      font-weight: 500;
+                      border-radius: 5px
+                   }
+
+                  /* PRODUCT */
+                        .product h3 {
+                           font-size: 30px;
+                           font-family: 'Inknut Antiqua', serif;
+                           
+                        }
+
+                        .product .card-1 {
+                           background-color: #F8F8F8;
+                           width: 260px;
+                           height: 290px;  
+                           margin: 0 auto  ;
+                           position: relative;
+                        }  
+
+                        .product .card-1 img {
+                           width: 100%;
+                        }
+
+                        .product .card-1 .icon {
+                           color: black;
+                           position:absolute;
+                           top: 9px;
+                           right: 14px;
+                        }
+
+                        /* KIDS */
+                           .kids {
+                              margin: 100px 0;
+                              background:url(../images/line3.png);
+                              background-position: center;
+                              background-repeat: no-repeat;
+                              background-size: contain;
+                           }
+                           .kids h2 {
+                              font-size: 35px;
+                              font-family: 'Inknut Antiqua', serif; 
+                           }
+
+                           .kids h3 {
+                              font-size: 45px;
+                              font-family: 'Inknut Antiqua', serif;  
+                           }
+
+                           .kids p {
+                              font-size: 14px;
+                              color: black;
+                              margin: 0;
+                           }
+
+                           .kids button {
+                              background-color: black;
+                              color: white;
+                               margin-top: 20px;
+                               width: 160px;
+                               height: 49px;
+                               font-size: 18px;
+                               font-weight: 500;
+                               border-radius: 5px
+                           } 
+                           .kids .container {
+                              position: relative;
+                           }
+
+                           .kids {
+                              margin-bottom: 0;
+                              margin-top: 140px;
+                              height: 410px;
+                              background: linear-gradient(1deg, #D9D9D9 -73.67%, rgba(234, 212, 255, 0.98) -73.67%, rgba(217, 217, 217, 0.00) 80.43%);
+                          }
+                           
+
+                           .kids .img {
+                              position: relative;
+                           }
+
+                           .kids .image {
+                              position: relative;
+                           }
+
+                           .kids .image .image-1 {
+                              width: 45%;
+                              height: auto;
+                              position: absolute;
+                              right: 0;
+                           }
+
+                           .kids .image .image-2 {
+                              width: 67%;
+                              height: auto;
+                              position: absolute;
+                              left: 0;
+                              top: -100px;
+                          }
+
+                          /* DETAIL */
+                             .detail h3 {
+                              font-size: 30px;
+                              font-family: 'Inknut Antiqua', serif; 
+                             }
+
+                             .detail h6 {
+                              font-size: 35px;
+                              /* font-family: 'Inknut Antiqua', serif;  */
+                              position: relative;
+                              top: 100px;
+                             }
+
+                             .detail .image img {
+                              width: 70%;
+                             }
+                             
+                             .detail p {
+                              font-size: 14px;
+                              color: black;
+                             }
+
+                             .detail .card {
+                              left: -54px;
+                              bottom: -172px;
+                              width: 632px;
+                              height: 150px;
+                              border: none;
+                              box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                             position: relative;
+                              display: flex;
+                              justify-content: center
+                              
+                             }
+
+                             .card img {
+                              position: absolute;
+                              top: -33px;
+                              left: -2px;
+                             }
+                           
+                             /* FOOTER  */
+                                .footer {
+                                 background-color: #E6FCF7;
+                                }
+
+                                .footer h4 {
+                                 font-size: 20px;
+                                }
+
+                                .footer a {
+                                 text-decoration: none;
+                                 color: black;
+                                 font-size: 12px;
+                                }
+                                ul{
+                                 margin: 0;
+                                 padding: 0 !important;
+                                }
+                                .footer ul li {
+                                 list-style: none;
+                                }
+
+                                .footer button {
+                                 background-color: black;
+                                 width: 50%;
+                                 color: white;
+
+                                }
+
+                                .footer input::placeholder {
+                                 font-size: 12px;
+                                 padding-left: 6px;
+                                }
+
+                                .footer .icons ul li {
+                                 display: inline-block;
+                                }
+                                  
+
+                
+
+         
