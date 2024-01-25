@@ -72,7 +72,6 @@
     }
 
     .about button {
-        color:#000;
         background-color: #08D761;
         padding: 12px 20px;
         width: auto;
@@ -218,7 +217,26 @@
         place-items: center;
 
     }
-
+    .circle-pro::before {
+        content: "";
+        position: absolute;
+        border-radius: 5px;
+        width: 112px;
+        height: 101px;
+        background-color: #ffffff;
+     }
+     
+.circle-pro {
+    width: 144px;
+    height: 134px;
+    position: relative;
+    /* background: conic-gradient(#ffffff 3.6deg, #000000 0deg); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin: 5px 0;
+ }
     .education .bg1::after {
         position: absolute;
         content: "";
@@ -392,3 +410,8 @@
     .contact-me h3::after {
         transform:translate(-237px, 3px);
     }
+
+    .profile img {
+        width: 100%;
+    }
+}
